@@ -99,5 +99,5 @@ Mensaje
   
   ---
   ## 😊 Insignia de finalización Sprint
-  ![cms_files_10224_1659459979Badge_Talker_Alura_ChallengeOracleONE_2000x2000_V3](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1659459979Badge_Talker_Alura_ChallengeOracleONE_2000x2000_V3.png?utm_campaign=alura_latam_-_challenge_email_projeto_3_esp&utm_medium=email&utm_source=RD+Station)
+  ![cms_files_10224_1659459979Badge_Talker_Alura_ChallengeOracleONE_2000x2000_V3](./Imagenes/cms_files_10224_1659459979Badge_Talker_Alura_ChallengeOracleONE_2000x2000_V3.png)
   
