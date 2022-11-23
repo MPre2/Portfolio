@@ -95,7 +95,7 @@ Mensaje
   - [Empezar a programar con Javascript](https://www.aluracursos.com/blog/empezar-a-programar-es-con-javascript)
   
 - Anexo:
-  - [Atributos de Input/](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled)
+  - [Atributos de Input/ - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled)
   
   ---
   ## 😊 Insignia de finalización Sprint
