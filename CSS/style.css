@@ -391,21 +391,30 @@ body {
   .menu__list {
     display: none;
     flex-direction: column;
-    gap: 1rem;
-    background: #fff;
+    background: #222;
     position: absolute;
-    top: 60px;
+    top: 100%;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    gap: 1.5rem;
+    padding: 1.5rem 0;
     z-index: 100;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   }
   .menu__list.menu__list--open {
     display: flex;
   }
-  .header h1 {
-    font-size: 1.2rem;
+  .menu__list__item a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
     text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .header {
+    position: relative;
   }
 }
 
