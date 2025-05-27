@@ -30,3 +30,13 @@ function validacion() {
 }
 
 btnEnviar.addEventListener("click", validacion);
+
+// Menú hamburguesa para móviles
+const toggle = document.querySelector(".menu__toggle");
+const menu = document.querySelector(".menu__list");
+toggle.addEventListener("click", () => {
+  menu.classList.toggle("menu__list--open");
+});
+
+// Footer: año actual
+document.getElementById("anio-actual").textContent = new Date().getFullYear();

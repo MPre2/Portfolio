@@ -19,13 +19,14 @@
 
   <body>
     <section class="inicio">
-      <a href="#Home"><img src="./Imagenes/up.png" alt="Volver al Home" /></a>
+      <a href="#Home"
+        ><img src="./Imagenes/up.png" alt="Volver al inicio" loading="lazy"
+      /></a>
     </section>
 
     <section class="header" id="Home">
       <h1>Presta, Matias - FullStack Developer</h1>
-
-      <br />
+      <button class="menu__toggle" aria-label="Abrir menú">&#9776;</button>
       <ul class="menu__list">
         <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
         <li class="menu__list__item"><a href="#skills">Skills</a></li>
@@ -39,7 +40,12 @@
     <!-- Sección del Header/Title/Hero -->
     <section class="title" id="sobre-mi">
       <div class="title__div">
-        <img class="title__profile" src="./Imagenes/Pic.jpeg" />
+        <img
+          class="title__profile"
+          src="./Imagenes/Pic.jpeg"
+          alt="Foto de perfil de Matías Presta"
+          loading="lazy"
+        />
 
         <div class="title__container">
           <h2 class="title__bio">
@@ -428,7 +434,7 @@
     <!-- Sección de Footer -->
     <section class="footer">
       <div class="footer__rodape">
-        <p>&copy2023 - HollowDevs Design</p>
+        <p>&copy;2023 - <span id="anio-actual"></span> - HollowDevs Design</p>
       </div>
     </section>
 
