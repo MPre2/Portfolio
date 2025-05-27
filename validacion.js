@@ -33,14 +33,10 @@ btnEnviar.addEventListener("click", validacion);
 
 // Menú hamburguesa para móviles (abre/cierra al presionar el botón o el h1)
 document.addEventListener('DOMContentLoaded', function () {
-  const toggle = document.querySelector('.menu__toggle');
   const menu = document.querySelector('.menu__list');
   const titulo = document.querySelector('.header h1');
   function toggleMenu() {
     menu.classList.toggle('menu__list--open');
-  }
-  if (toggle && menu) {
-    toggle.addEventListener('click', toggleMenu);
   }
   if (titulo && menu) {
     titulo.style.cursor = "pointer";
